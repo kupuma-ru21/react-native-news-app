@@ -1,6 +1,7 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from '../screens/HomeScreen';
+import ArticleScreen from '../screens/ArticleScreen';
 
 const AppNavigator = createStackNavigator({
   Home: {
@@ -8,6 +9,9 @@ const AppNavigator = createStackNavigator({
     navigationOptions: {
       header: null,
     },
+  },
+  Article: {
+    screen: ArticleScreen,
   },
 });
 
