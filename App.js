@@ -1,5 +1,5 @@
 import React from 'react';
-import AppNavigator from './navigations/AppNovigator';
+import AppNavigator from './navigations/AppNavigator';
 
 export default App = () => {
   return <AppNavigator />;
